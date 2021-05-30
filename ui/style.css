@@ -6,12 +6,13 @@ QWidget {
 
 /* все прочие диалоги */
 QDialog {
-  background-color: #1e2c39;
+  background-color: #141d26;
 }
 
 /* главное окно лаунчера */
 QMainWindow {
   background-image: url(%app%/ui/background.png);
+  background-size: length;
   background-color: #1e2c39;
 }
 
@@ -44,7 +45,7 @@ QPushButton {
   background-color: #1a242e;
   border-radius: 6px;
   color: white;
-  padding: 4px 8px;
+  padding: 8px 16px;
 }
 
 QPushButton:hover {
@@ -66,13 +67,39 @@ QPushButton#start {
   padding: 8px 0;
 }
 
-QPushButton#startlog {
-  background-color: #4295f7;
-  padding: 8px 0;
-}
-
 QPushButton#start:hover {
   background-color: #2284f3;
+}
+
+QPushButton#start:disabled {
+  background-color: #111921;
+}
+
+/* Кнопка Прервать загрузку */
+QPushButton#stopdownload {
+  background-color: #111921;
+  padding: 0 24px;
+  height: 41px;
+}
+
+QPushButton#stopdownload:hover {
+  background-color: #ff6464;
+}
+
+/* Кнопка Запуск с консолью */
+QPushButton#runconsole {
+  background-color: rgba(255, 255, 255, 0);
+  color: rgba(255, 255, 255, 0.64);
+  padding: 8px 4px;
+}
+
+QPushButton#runconsole:hover {
+  color: rgb(255, 255, 255);
+  background-color: #202b36;
+}
+
+QPushButton#newprofile::icon {
+  image: url(%app%/ui/close.png);
 }
 
 /* Селекторы типа Выбор профиля */
@@ -128,17 +155,29 @@ QProgressBar {
 
 QProgressBar::chunk {
   background-color: #4295f7;
-  border-radius: 6px;
+  border-top-left-radius: 6px;
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius: 6px;
 }
 
+/* Окно с логом */
 QDialog > QFrame {
-  border: 0.5 solid #111921;
-  background-color: #111921;
+  border: 0.5 solid #1e2c39;
+  background-color: #1e2c39;
+}
+
+QPushButton#cp2clipboard {
+  background-color: #1e2c39;
+}
+
+QPushButton#cp2clipboard:hover {
+  background-color: #4295f7;
 }
 
 /* Окно настроек */
 QTabWidget::pane {
-  background-color: #1e2c39;
+  background-color: #141d26;
   border: 0;
 }
 
@@ -206,10 +245,11 @@ QPushButton#closeBtn {
   color: rgba(255, 255, 255, 0);
   border: 0;
   border-radius: 0;
+  padding: 7px;
 }
 
 QPushButton#closeBtn:hover {
-  background-color: #fd0007;
+  background-color: #ff6464;
 }
 
 QTextBrowser {
@@ -237,7 +277,7 @@ QToolButton {
 }
 
 QToolButton:hover {
-  background-color: #007ca5;
+  background-color: #4295f7;
 }
 
 /* основные блоки с новостями */
@@ -251,7 +291,7 @@ QToolButton:hover {
 }
 
 .text-block a:hover {
-  color: #007ca5;
+  color: #4295f7;
 }
 
 /* разделитель между текстовыми блоками */
@@ -284,6 +324,10 @@ QToolButton:hover {
 }
 
 /* стили информации об аккаунте */
+QLabel#userInfo {
+  margin-top: 10px;
+}
+
 .avatar {
   margin: 8px 0;
 }
@@ -303,4 +347,45 @@ QToolButton:hover {
 }
 .crush {
   color: #ca5050;
+}
+
+/* Первый запуск лончера */
+QVBoxLayout#verticalLayout_2 {
+  border-radius: 6px;
+}
+
+/* Я играю впервые */
+QPushButton#btnFirst {
+  background-color: #4295f7;
+}
+
+QPushButton#btnFirst:hover {
+  background-color: #2284f3;
+}
+
+/* У меня уже есть аккаунт */
+QPushButton#btnExists {
+}
+
+QPushButton#btnExists:hover {
+  background: #141d26;
+}
+
+/* Кнопка Зарегистрировать */
+QPushButton#actionBtn {
+  background-color: #4295f7;
+}
+
+QPushButton#actionBtn:hover {
+  background-color: #2284f3;
+}
+
+/* Окно с правилами галактики */
+/* Кнопка Я согласен! */
+QPushButton#agree {
+  background-color: #4295f7;
+}
+
+QPushButton#agree:hover {
+  background-color: #2284f3;
 }
