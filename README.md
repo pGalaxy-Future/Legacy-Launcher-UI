@@ -1,6 +1,6 @@
 # Редизайн стокового Лаунчера [Project Galaxy](http://project-galaxy.ru/)
 
-![](https://user-images.githubusercontent.com/47987619/119987967-cc438c80-bfef-11eb-8f74-e168c9de2abf.png)
+![](https://user-images.githubusercontent.com/47987619/120106594-db5d4280-c187-11eb-92eb-4eb98a4ab6ad.png)
 
 Видимо, мы так и не дождемся нового, красивого лончера... Но мы можем сделать это сами!
 
