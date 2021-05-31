@@ -259,7 +259,6 @@ QTextBrowser {
 /* Правая панель */
 QFrame#rightpanel {
   background: #141d26;
-  border-left: 0.5 solid #111921;
   margin: 8px;
   padding: 8px;
   border-radius: 6px;
