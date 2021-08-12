@@ -10,7 +10,7 @@
 
 1. Скачать архив и распаковать
 2. Перейти в папку установки лаунчера
-   [^_Обычно здесь: C:\Program Files (x86)\Project Galaxy_]
+   (Обычно здесь: _C:\Program Files (x86)\Project Galaxy_)
 3. Заменить папку **ui** на ту, что из архива
 
 **Возник вопрос?** Пиши сюда - [https://forum.minecraft-galaxy.ru/topic/129685](https://forum.minecraft-galaxy.ru/topic/129685)
