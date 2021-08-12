@@ -15,4 +15,4 @@
 
 **Возник вопрос?** Пиши сюда - [https://forum.minecraft-galaxy.ru/topic/129685](https://forum.minecraft-galaxy.ru/topic/129685)
 
-© [TitanBox](https://forum.minecraft-galaxy.ru/profilemain/165072) (_[zettend](https:/zettend.ru/)_)
+© [TitanBox](https://forum.minecraft-galaxy.ru/profilemain/165072) ([_zettend_](https://zettend.ru/))
